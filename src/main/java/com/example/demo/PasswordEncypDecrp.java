@@ -25,9 +25,10 @@ public class PasswordEncypDecrp {
 	
 	public static void main(String[] args) throws InvalidKeyException, NoSuchAlgorithmException, NoSuchPaddingException, IllegalBlockSizeException, BadPaddingException, InvalidAlgorithmParameterException {
 		
-		
+		    // encrypted method call
 			String encyptedString=encrypt("Password9$","MHHUB");
 			System.out.println("encyptedString " + encyptedString);
+			 // decrypted method call
 		//	String decrypedString=basicDecrypt("/5S8igzkniCD8MaGqLVJvTq4sL824kdl83/g/QRl8Pv0sy2INFqomycNP4V+NGoe");
 			//System.out.println("decrypedString " + decrypedString);
 	}
