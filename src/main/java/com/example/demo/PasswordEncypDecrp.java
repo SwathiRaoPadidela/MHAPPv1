@@ -34,7 +34,7 @@ public class PasswordEncypDecrp {
 
 	private static String encrypt(String strToEncrypt,String secrete) {
   		try {
-  			
+  			System.out.println("inside encypt method")
   			
   			setKey(secrete);
   			Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
