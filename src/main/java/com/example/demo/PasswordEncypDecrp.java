@@ -30,9 +30,6 @@ public class PasswordEncypDecrp {
 			System.out.println("encyptedString " + encyptedString);
 		//	String decrypedString=basicDecrypt("/5S8igzkniCD8MaGqLVJvTq4sL824kdl83/g/QRl8Pv0sy2INFqomycNP4V+NGoe");
 			//System.out.println("decrypedString " + decrypedString);
-		
-	
-	
 	}
 
 	private static String encrypt(String strToEncrypt,String secrete) {
